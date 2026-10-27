@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website pribadi dan portofolio saya.">
+  <title>Website Pribadi Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#">PORTOFOLIO.</a>
+    <button id="menuBtn" aria-label="Buka menu">☰</button>
+    <nav id="navMenu">
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#layanan">Layanan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <p class="eyebrow">SELAMAT DATANG DI WEBSITE SAYA</p>
+      <h1>Halo, saya <span id="nama">Nama Kamu</span>.</h1>
+      <p class="intro">
+        Ini adalah website pribadi saya untuk berbagi karya,
+        informasi, dan hal-hal menarik.
+      </p>
+      <a class="button" href="#tentang">Kenali Saya</a>
+    </section>
+
+    <section class="section" id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>
+        Saya senang belajar teknologi, membuat karya digital,
+        dan mengembangkan ide menjadi sesuatu yang bermanfaat.
+      </p>
+    </section>
+
+    <section class="section" id="layanan">
+      <h2>Halaman Saya</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Portofolio</h3>
+          <p>Kumpulan karya dan proyek saya.</p>
+        </article>
+        <article class="card">
+          <h3>Galeri</h3>
+          <p>Tempat berbagi foto dan cerita.</p>
+        </article>
+        <article class="card">
+          <h3>Informasi</h3>
+          <p>Informasi terbaru tentang aktivitas saya.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontak">
+      <h2>Hubungi Saya</h2>
+      <p>Silakan hubungi saya melalui WhatsApp.</p>
+      <a class="button" id="waBtn"
+         href="https://wa.me/6281234567890"
+         target="_blank" rel="noopener">
+        Hubungi WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Website Pribadi Saya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
